@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	margin: 0 10px 0 0;
+	padding-top : 50px;
+}
+
+ul.main-menu{
+	background-color: white;
+	box-shadow: 5px 10px 8px rgba(88, 88, 88, 0.8);
+	border-radius: 5px;
+	
+	position: fixed;
+	top:0;
+	width: 99%;
+	
+	display: flex;
+	
+	transition: 0.3s;
+	z-index: 10;
+	
+
+}
+
+ul.main-menu a{
+	flex:0 1 auto;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 15px
+}
+
